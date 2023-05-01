@@ -1,0 +1,38 @@
+.bta{
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 15px;
+    padding: 15px 50px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.bta:hover{
+    background-color: #404d3c;
+    border: 1px solid white;
+    color: #fff;
+}
+.bt{
+    position: absolute;
+    top: 240%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 15px;
+    padding: 15px 50px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.bt:hover{
+    background-color: #404d3c;
+    border: 1px solid white;
+    color: #fff;
+}

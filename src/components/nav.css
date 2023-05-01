@@ -1,0 +1,21 @@
+.bgc{
+    background-color: #f7e5d2;
+    
+}
+.gap{
+    margin: 0 15px;
+    color:#000000;
+    text-decoration: none;
+}
+#navbar {
+    background-color:#f7e5d2;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 1;
+  }
+  .gap :hover{
+    color: #60695d;
+  }
