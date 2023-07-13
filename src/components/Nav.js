@@ -35,6 +35,7 @@ function CollapsibleExample() {
         let price = 0;
         getdata.map((ele, k) => {
             price = ele.price * ele.qnty + price
+            
         });
         setPrice(price)
     };
@@ -57,12 +58,12 @@ function CollapsibleExample() {
 
     return (
 
-        <Navbar id='navbar' className='bgc' collapseOnSelect expand="lg" variant="black" >
+        <Navbar id='navbar' className='bgc' collapseOnSelect expand="lg sm md" variant="black" >
             <div className='container-fluid'>
                 <Navbar.Brand to="#home" className='nbr animate__animated animate__bounce' style={{ fontSize: "40px", fontFamily: "playfair display, serif", color: "#60695D" }}>Cafe Coffee Day</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    {auth ? <Nav className="me-auto" style={{ marginLeft: "440px" }}>
+                    {auth ? <Nav className="me-auto">
                         <NavLink className='gap' to="/home"><span style={{ marginRight: "5px" }}><i className="fa-solid fa-house"></i> Home</span> </NavLink>
                         <NavLink className='gap' to="/thisisus"><span style={{ marginRight: "5px" }}><i className="fa-solid fa-users"></i> This Is Us</span></NavLink>
                         <NavLink className='gap' to="/menu"><span style={{ marginRight: "5px" }}><i className="fa-regular fa-rectangle-list"></i> Menu</span></NavLink>
@@ -74,10 +75,10 @@ function CollapsibleExample() {
                             aria-expanded={open ? 'true' : undefined}
                             onClick={handleClick}
                         ><i className="fa-solid fa-cart-shopping f4"></i></Badge></NavLink>
-                        <NavLink className='gap' to="/" onClick={logout}><span style={{ marginRight: "5px" }}><i className="fa-solid fa-arrow-right-from-bracket"></i> logout ({JSON.parse(auth).name} )</span></NavLink>
+                        <NavLink className='gap' to="/" onClick={logout}><span style={{ marginRight: "5px" }}><i className="fa-solid fa-arrow-right-from-bracket"></i> logout ({JSON.parse(auth).name})</span></NavLink>
                     </Nav>
                         :
-                        <div style={{ marginLeft: "1000px" }}>
+                        <div >
                             <NavLink className='gap' to="/"><span style={{ marginRight: "5px" }}><i className="fa-solid fa-user-plus"></i> Sign up</span></NavLink>
                             <NavLink className='gap' to="/login"><span style={{ marginRight: "5px" }}><i className="fa-solid fa-user"></i> LogIn</span></NavLink>
                         </div>

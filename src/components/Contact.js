@@ -22,8 +22,7 @@ const Contact = () => {
                                     <label htmlFor="inputEmail4">First Name</label>
                                     <input type="first name" className="form-control" />
                                 </div>
-                                <div className='col-md-1'></div>
-                                <div className="form-group" >
+                                <div className="form-group ml1" >
                                     <label htmlFor="inputPassword4">Last Name</label>
                                     <input type="last name" className="form-control" />
                                 </div>
@@ -36,7 +35,7 @@ const Contact = () => {
                                 <Form.Label>Message</Form.Label>
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
-                            <button type="submit" className="btn btn-primary" style={{ width: "87%", backgroundColor: "#60695D", border: "none" }}>Send</button>
+                            <button type="submit" className="btn btn-primary" style={{ width: "50%", backgroundColor: "#60695D", border: "none" }}>Send</button>
                         </form>
 
                     </div>
@@ -44,7 +43,7 @@ const Contact = () => {
                         <div className="vl" style={{ height: "300px" }}></div>
                     </div>
 
-                    <div className='col-lg-5 ml6 mt5'>
+                    <div className='col-lg-5 mt5'>
                         <div className='row'>
                             <div className='col-lg-6'>
                                 <i className="fa-solid fa-location-dot f3 ml2"></i>

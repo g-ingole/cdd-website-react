@@ -36,3 +36,34 @@
     border: 1px solid white;
     color: #fff;
 }
+@media only screen and (max-width: 600px){
+    .bta{
+        margin-top: 550px;
+    }
+    .bt{
+        margin-left: 120px;
+        margin-top: 400px;
+        display: none;
+    }
+  
+  
+}
+
+@media (min-width:992px) and (max-width:2500px){
+    .jjhgt{
+        margin-left: 140px;
+    }
+    .jjhg{
+        margin-left: 170px;
+
+    }
+}
+@media (min-width:375px){
+    .bt{
+        display: none;
+
+    }
+    .bta{
+        display: none;
+    }
+}

@@ -24,7 +24,6 @@ function App() {
           <Route path="/menu" element={<Menu />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/cartdetails/:id' element={<CartDetails />}></Route>
-
         </Route>
 
       </Routes>
@@ -33,5 +32,5 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;

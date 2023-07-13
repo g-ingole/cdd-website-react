@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px){
+    .footerf{
+        margin-top: 1410px;
+    }
+    .fcd{
+        padding: 15px 0px 10px;
+        /* width: 100px; */
+        height: 50px;
+    }
+    .hhgfd{
+        margin-top: -15px;
+        height: 50px;
+margin-left: 10px;        
+    }
+    
+}
+@media (min-width:1440px){
+    .hhgfd{
+        height: 40px;
+        margin-top: 1px;
+    }
+}
+
+@media (min-width:1024px){
+    .hhgfd{
+        height: 50px;
+        margin-top: 1px;
+    }
+}

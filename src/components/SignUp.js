@@ -28,13 +28,19 @@ const SignUp = () => {
     }
   })
   const collectData = async () => {
+    if (name === "" && email === "" && password === "" && mobile === "") {
+      alert("Plase enter the fields.")
+    }
+    else {
+      alert("successful")
+    }
     console.log(name, email, password, mobile)
-    let result = await fetch('https://ccd-backend.vercel.app/api/user/user', {
+    let result = await fetch('https://ccd-backend-five.vercel.app/api/user/user', {
       method: 'Post',
       body: JSON.stringify({ name, email, password, mobile }),
       headers: {
         'content-Type': 'application/json'
-      },
+      }
     });
     result = await result.json()
     console.log(result);
@@ -79,7 +85,7 @@ const SignUp = () => {
                 <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Subscribe to our newsletter' />
               </div> */}
 
-              <Button className='mb-4' size='lg' type='submit' onClick={collectData}>Sign Up</Button>
+              <Button className='mb-4 mt1' size='lg' type='submit' onClick={collectData}>Sign Up</Button>
 
             </MDBCol>
             <MDBCol md='10' lg='6' className='order-1 order-lg-2 d-flex align-items-center'>

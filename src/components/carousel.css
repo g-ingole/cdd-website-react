@@ -14,8 +14,8 @@
 
 .btn3{
     position: absolute;
-    left: 17%;
-    top: 158%;
+    left: 12%;
+    top: 160%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-size: 15px;
@@ -33,7 +33,7 @@
   .btn4{
     position: absolute;
     left: 68%;
-    top: 248%;
+    top: 240%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-size: 15px;
@@ -104,7 +104,7 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-size: 15px;
-    padding: 18px 40px;
+    padding: 15px 40px;
     border: 1px solid #fff;
     cursor: pointer;
     color: #fff;
@@ -121,8 +121,8 @@
   }
   .btno{
     position: absolute;
-    top: 320%;
-    left: 17%;
+    top: 300%;
+    left: 12%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-size: 15px;
@@ -145,4 +145,128 @@
   height: 635px;
   background-attachment: fixed;
 }
+
+@media only screen and (max-width: 600px){
+  .img1{
+    width: 320px;
+  }
+  .count{
+    width: 100px;
+  }
+  .top-left{
+    font-size: 16px;
+  }
+  .top-let{
+    font-size: 35px;
+  }
+  .btn{
+    margin-top: 90px;
+    margin-left: 125px;
+  }
+  .btn1{
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  .carousel{
+    font-size: 9px;
+  }
+  .btn3{
+    margin-left: 160px;
+    padding: 5px 20px;
+    margin-top: -130px;
+  }
+  .btno{
+    margin-top: 780px;
+    margin-left: 205px;
+    padding: 1px 30px;
+  }
+  .btn4{
+    margin-top: 780px;
+    padding: 1px 30px;
+    width: 100px;
+  }
+  .iiig{
+    margin-bottom: 10px;
+  }
+  .vl{
+    display: none;
+  }
+  .img-grid{
+    flex-direction: column;
+  }
+ 
+}
+@media (min-width:992px) and (max-width:2500px){
+  .mbvgty{
+    margin-left: 100px;
+  }
+  .mbvgt{
+    margin-left: -90px;
+  }
+  .mbvg{
+    margin-top: 50px;
+  }
+  
+}
+
+@media (min-width:375px){
+  .img1{
+    width: 375px;
+  }
+  .mbvgt{
+    margin-top: 700px;
+  }
+  .mbvg{
+    margin-top: 660px;
+  }
+  .img-grid{
+    margin-bottom: 800px;
+  }
+}
+@media (min-width:425px){
+  .img1{
+    width: 425px;
+  }
+}
+@media (min-width:768px){
+  .img1{
+    width: 769px;
+  }
+  
+  .btn1{
+    display: none;
+  }
+  .btn{
+    margin-top: 80px;
+  }
+  .btn3{
+    display: none;
+  }
+  .mbvg{
+    display: none;
+  }
+  .vl{
+    display: none;
+  }
+}
+@media (min-width:1440px){
+  .img1{
+    width: 100%;
+  }
+.mbvgt{
+  display: none;
+}
+.btn{
+  margin-top: -50px;
+}
+}
+
+
+@media (min-width:1024px){
+  .mnbvg{
+    width: 100%;
+  }
+}
+ 
+
 
